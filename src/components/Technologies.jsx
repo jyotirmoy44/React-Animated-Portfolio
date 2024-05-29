@@ -81,7 +81,7 @@ const Technologies = () => {
 
 
             <motion.div 
-            variants={iconVariants(6)}
+            variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             drag
@@ -93,7 +93,7 @@ const Technologies = () => {
 
 
             <motion.div 
-            variants={iconVariants(4)}
+            variants={iconVariants(6)}
             initial="initial"
             animate="animate"
             drag
