@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -33,9 +32,7 @@ const Navbar = () => {
       <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900 transition-colors duration-300">
         <FaFacebook />
       </a>
-      <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors duration-300">
-        <FaWhatsapp />
-      </a>
+    
         </div>
     </nav>
   )
