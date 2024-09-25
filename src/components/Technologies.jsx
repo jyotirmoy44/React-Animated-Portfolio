@@ -5,6 +5,10 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import { DiMysql } from 'react-icons/di';
+import { DiPostgresql } from 'react-icons/di';
+import { DiAws } from 'react-icons/di';
+import { DiLinux } from 'react-icons/di';
 import { motion } from 'framer-motion';
 
 const iconVariants= (duration) => ({
@@ -38,8 +42,8 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             drag
-      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
             className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
             <RiReactjsLine className='text-7xl text-cyan-400'/>
             </motion.div>
@@ -49,8 +53,8 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             drag
-      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
             className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
             <TbBrandNextjs className='text-7xl bg-black'/>
             </motion.div>
@@ -61,8 +65,8 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             drag
-      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
             className='rounded-2xl border-4  p-4 border-neutral-800 bg-yellow-400 cursor-grab active:cursor-grabbing'>
             <TbBrandJavascript className='text-7xl border-black text-black'/>
             </motion.div>
@@ -73,8 +77,8 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             drag
-      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
             className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
             <FaNodeJs className='text-7xl text-green-500 bg-black'/>
             </motion.div>
@@ -85,8 +89,8 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             drag
-      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
             className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
             <FaPhp className='text-7xl bg-purple-700 '/>
             </motion.div>
@@ -98,11 +102,55 @@ const Technologies = () => {
             animate="animate"
             drag
             dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-      dragElastic={0.4}
+            dragElastic={0.4}
             className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
             <SiMongodb className='text-7xl text-green-500'/>
             </motion.div>
 
+            <motion.div 
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+            drag
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
+            className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
+            <DiMysql className='text-7xl text-white-500 bg-gradient-to-r from-[#00758f] to-[#f29111]'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            drag
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
+            className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
+            <DiPostgresql className='text-7xl text-white bg-gradient-to-r from-[#336791] to-[#a0c4ff]'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            drag
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
+            className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
+            <DiAws className='text-7xl text-white bg-gradient-to-r from-[#FF9900] to-[#FFB84D]'/>
+      
+            </motion.div>
+
+            <motion.div 
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            drag
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+            dragElastic={0.4}
+            className='rounded-2xl border-4 border-neutral-800 p-4 cursor-grab active:cursor-grabbing'>
+            <DiLinux className='text-7xl text-white bg-gradient-to-r from-[#009e4a] to-[#f5f5f5]'/>
+            </motion.div>
             </motion.div>
         
     </div>
