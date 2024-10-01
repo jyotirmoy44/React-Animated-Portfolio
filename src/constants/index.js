@@ -5,23 +5,33 @@ import project5 from "../assets/projects/snakeWaterGun.jpeg";
 import project6 from "../assets/projects/bubbleGame.jpg";
 
 export const HERO_CONTENT = 
-`Hello! I'm Jyotirmoy Sharma, a dedicated full stack developer with a rich background in network engineering. My technical journey started in the world of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in web development, where I now channel my passion for creating dynamic, user-centric web applications.`;
+`Hello! I'm Jyotirmoy Sharma, an emerging Full Stack Developer and DevOps Engineer with a solid understanding of DevOps models and architecture. My technical journey began in the realm of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in both web development and DevOps practices.
 
-export const ABOUT_TEXT = `As a full stack developer, I specialize in harmonizing front-end aesthetics with back-end functionality to craft seamless web experiences. My expertise encompasses various domains:
+I have experience with AWS Cloud, MySQL, PostgreSQL, and Linux administration, enabling me to create dynamic, user-centric web applications while ensuring efficient, scalable solutions. I am passionate about leveraging my diverse skill set to develop innovative solutions that enhance user experiences and drive project success.Hello! I'm Jyotirmoy Sharma, a dedicated full stack developer with a rich background in network engineering. My technical journey started in the world of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in web development, where I now channel my passion for creating dynamic, user-centric web applications.`;
 
-In front-end development, I wield mastery over HTML, CSS, and JavaScript, complemented by cutting-edge frameworks like React, enabling the creation of visually captivating and responsive user interfaces.
+export const ABOUT_TEXT = `As a Full Stack Developer and emerging DevOps Engineer, I specialize in harmonizing front-end aesthetics with back-end functionality to craft seamless web experiences. My expertise encompasses various domains:
 
-On the back-end, I demonstrate proficiency in server-side technologies such as Node.js and Express, alongside adept database management skills like MongoDB.
+- **Front-End Development:**
+  - Mastery of HTML, CSS, and JavaScript.
+  - Focus on modern frameworks like React for creating visually captivating and responsive user interfaces.
 
-My approach to project integration is informed by my background in networking, allowing me to optimize application performance, fortify security measures, and scale solutions for robust and efficient outcomes.
+- **Back-End Development:**
+  - Proficiency in server-side technologies such as Node.js and Express.
+  - Skilled in database management with MySQL and PostgreSQL, ensuring efficient data handling and storage.
 
-Throughout my journey, I've spearheaded full stack projects, steering them from conception and design through to deployment and ongoing maintenance, ensuring a holistic approach to development that prioritizes both user experience and technical excellence.
+- **DevOps Practices:**
+  - Understanding of DevOps models and architecture to streamline development and operations.
+  - Experience with CI/CD pipelines to automate deployments and improve workflow efficiency.
 
+- **Cloud Computing:**
+  - Familiarity with AWS Cloud services, enabling scalable and resilient application deployments.
+  - Utilization of AWS tools for monitoring, security, and resource management.
 
+- **Linux Administration:**
+  - Competent in Linux environments, enhancing application performance and security through effective server management.
+  - Background in networking informs my approach to project integration, optimizing application performance, fortifying security measures, and scaling solutions effectively.
 
-
-
-`;
+Throughout my journey, I have spearheaded full stack projects, guiding them from conception and design to deployment and ongoing maintenance. I prioritize a holistic development approach that emphasizes both user experience and technical excellence.`;
 
 
 export const EXPERIENCES = [
