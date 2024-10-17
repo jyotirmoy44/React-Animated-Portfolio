@@ -5,43 +5,59 @@ import project5 from "../assets/projects/snakeWaterGun.jpeg";
 import project6 from "../assets/projects/bubbleGame.jpg";
 
 export const HERO_CONTENT = 
-`Hello! I'm Jyotirmoy Sharma, an emerging Full Stack Developer and DevOps Engineer with a solid understanding of DevOps models and architecture. My technical journey began in the realm of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in both web development and DevOps practices.
+`Hello! I'm Jyotirmoy Sharma, an emerging DevOps Engineer with a solid understanding of DevOps models and architecture. My technical journey began in the realm of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in both web development and DevOps practices.
+PostgreSQL, and Linux administration, enabling me to create dynamic, user-centric web applications while ensuring efficient, scalable solutions. I am passionate about leveraging my diverse skill set to develop innovative solutions that enhance user experiences and drive project success.`;
 
-I have experience with AWS Cloud, MySQL, PostgreSQL, and Linux administration, enabling me to create dynamic, user-centric web applications while ensuring efficient, scalable solutions. I am passionate about leveraging my diverse skill set to develop innovative solutions that enhance user experiences and drive project success.`;
+export const ABOUT_TEXT = `As an emerging DevOps Engineer, I specialize in integrating development and operations to deliver seamless web experiences. My focus on DevOps principles enables efficient collaboration and continuous improvement across all stages of the software development lifecycle. My expertise spans various domains:
 
-export const ABOUT_TEXT = `As a Full Stack Developer and emerging DevOps Engineer, I specialize in harmonizing front-end aesthetics with back-end functionality to craft seamless web experiences. My expertise encompasses various domains:
+DevOps Practices:
 
-- **Front-End Development:**
-  - Mastery of HTML, CSS, and JavaScript.
-  - Focus on modern frameworks like React for creating visually captivating and responsive user interfaces.
+Deep understanding of DevOps models and architecture to streamline development and operations.
+Proven experience in designing and implementing CI/CD pipelines, automating deployment processes to enhance efficiency and reduce errors.
+Familiarity with tools such as Jenkins, SonarQube, and Trivy to ensure secure, high-quality code deployment.
+Cloud Computing:
 
-- **Back-End Development:**
-  - Proficiency in server-side technologies such as Node.js and Express.
-  - Skilled in database management with MySQL and PostgreSQL, ensuring efficient data handling and storage.
+Proficient in AWS Cloud services, enabling scalable and resilient application deployments.
+Utilization of AWS tools for monitoring, security, and resource management to maintain optimal performance.
+Back-End Development:
 
-- **DevOps Practices:**
-  - Understanding of DevOps models and architecture to streamline development and operations.
-  - Experience with CI/CD pipelines to automate deployments and improve workflow efficiency.
+Proficient in server-side technologies such as Node.js and Express, ensuring robust application functionality.
+Skilled in database management with MySQL and PostgreSQL, focusing on efficient data handling and storage.
+Front-End Development:
 
-- **Cloud Computing:**
-  - Familiarity with AWS Cloud services, enabling scalable and resilient application deployments.
-  - Utilization of AWS tools for monitoring, security, and resource management.
+Mastery of HTML, CSS, and JavaScript.
+Focus on modern frameworks like React to create visually captivating and responsive user interfaces.
+Linux Administration:
 
-- **Linux Administration:**
-  - Competent in Linux environments, enhancing application performance and security through effective server management.
-  - Background in networking informs my approach to project integration, optimizing application performance, fortifying security measures, and scaling solutions effectively.
-
-Throughout my journey, I have spearheaded full stack projects, guiding them from conception and design to deployment and ongoing maintenance. I prioritize a holistic development approach that emphasizes both user experience and technical excellence.`;
-
+Competent in managing Linux environments, enhancing application performance and security through effective server management.
+A strong networking background informs my approach to project integration, optimizing performance, fortifying security measures, and scaling solutions effectively.
+Throughout my journey, I have led full-stack projects from conception and design to deployment and ongoing maintenance, prioritizing a holistic development approach that emphasizes user experience alongside technical excellence. My commitment to DevOps principles drives my passion for continuous learning and innovation in technology.`
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Network Engineer",
+    role: "Network & DevOps Engineer",
     company: "EbixCash Mobility Software India Ltd",
-    description: `A testament to my multifaceted skill set, I took on the responsibility of maintaining and designing the District website, ensuring its seamless functionality and user experience. In troubleshooting complex multi-vendor network service provider issues, I adeptly navigated intricate challenges to swiftly resolve issues and minimize downtime.
-
-    Furthermore, I provided end-to-end engineering and installation of route-based IP network solutions, demonstrating a keen eye for detail and a commitment to excellence. Leveraging my expertise in Juniper, Cisco, and packet analysis, I executed precise troubleshooting procedures to maintain network integrity and reliability.`,
+    description: `Transitioned into DevOps engineering as per client requirements,
+learning and applying various DevOps tools and methodologies.
+Developed and maintained CI/CD pipelines using Jenkins, GitHub,
+SonarQube, and other DevSecOps methodologies to automate
+software delivery and enhance deployment efficiency.
+Integrated OWASP dependency checks, SonarQube quality gate scans,
+and Trivy filesystem scans to ensure secure and high-quality code
+deployment.
+Successfully automated deployment processes, improving delivery times
+and reducing manual errors.
+Utilized GitHub for version control, managing code repositories,
+performing branching and merging strategies, and collaborating on
+large-scale projects.
+Delivered end-to-end engineering and installation of route-based IP
+network solutions, ensuring optimal performance and reliability.
+Performed advanced troubleshooting on Juniper and Cisco systems,
+utilizing packet analysis tools to efficiently identify and resolve network
+issues.
+Monitored network capacity and performance, diagnosing and resolving
+bottlenecks to maintain seamless connectivity.`
     
   },
   
@@ -49,32 +65,62 @@ export const EXPERIENCES = [
     year: "2017-2023",
     role: "Network Engineer",
     company: "Wipro Limited",
-    description: `In my capacity, I diligently monitored network capacity and performance, proactively diagnosing and resolving intricate network issues across nearly 30 Government Offices. I played a pivotal role in the implementation and support of cutting-edge network monitoring tools, ensuring our infrastructure remained robust and resilient.
-
-    In times of crisis, I swiftly escalated emergency technical issues, drawing on collective expertise to uphold optimal uptime and mitigate potential disruptions. Additionally, I fostered collaborative partnerships with vendors, working hand-in-hand to identify and implement the most effective strategies for optimizing network performance, thereby ensuring seamless operations across the board.`,
-    
+    description: `As a Network Engineer, I monitored network capacity and performance in
+a Linux environment, diagnosing and resolving complex issues across nearly
+30 government offices. In addition, I assisted in the implementation and
+support of Linux-based network monitoring tools, ensuring real-time
+tracking of network health and performance. Collaborating with external
+vendors, I helped evaluate and deploy optimal solutions for network
+performance improvements, leveraging Linux-based tools for monitoring
+and configuration.
+During this time, I also provided support in various DevOps tools, which
+sparked my interest in the field. I actively worked on developing my skills in
+areas like automation, containerization, and CI/CD pipelines. This
+hands-on experience encouraged me to transition my career into DevOps,
+where I now specialize in modern technologies such as Docker, Jenkins, and
+cloud platforms like AWS, alongside my strong networking foundation.`
   },
   {
     year: "2015 - 2017",
     role: "Administrator",
-    company: "Wipro Technologies",
-    description: `In my role, I oversee the seamless operation of Assam Secretariat's LAN while managing vital links with BSNL, RailTel, and PGCIL, extending from NIC-NOC-GHY to government offices across Guwahati and other districts of Assam. Daily, I conduct comprehensive ERP updates, meticulously tracking network traffic through MRTG graphs of local and district links, as well as from NIC-NOC-GHY.`,
-  },
+    company: "Wipro Limited",
+    description: `Monitored and managed Assam Secretariat's LAN, overseeing BSNL,
+RailTel, and PGCIL network links from NIC-NOC-GHY to local
+government offices across Guwahati and other districts in Assam.
+Conducted daily ERP updates of network traffic, utilizing MRTG
+graphs for analyzing data from both local and district links, ensuring
+smooth communication between NIC-NOC-GHY and
+regional offices.
+Installed and configured routers, modems, and Nortel switches,
+ensuring seamless network connectivity and performance across the
+infrastructure.
+Managed day-to-day operational issues, handled requests, and led project
+tasks; resolved
+escalated incidents, network problems, and outages within Service Level
+Agreements (SLAs), while documenting solutions for future reference
+and compliance`
+  }
 ];
 
 export const PROJECTS = [
+
+  {
+    title: "DevSecOps Pipeline",
+    image: project1,
+    description: "Developed a robust CI/CD pipeline ensuring secure application deployment using Jenkins, GitHub, SonarQube, and Trivy. Integrated SonarQube quality gates scans to maintain code quality and security standards throughout the deployment process, enhancing the overall security posture of the applications.",
+    technologies: ["Jenkins", "GitHub", "SonarQube", "SonarQube quality Gate scan", "Trivy"],
+  },
+
   {
     title: "E-Commerce Website",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    description: "Created a robust e-commerce platform featuring user authentication, product catalog management, and a shopping cart. Utilized React.js for a dynamic frontend and Node.js with Express.js for backend services, ensuring seamless user interaction and secure data handling.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "React-Animated Portfolio",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    description: "Developed a sleek portfolio website using React.js and hosted it on GitHub Pages. Connected MongoDB for managing backend data, creating a scalable and secure platform to effectively showcase projects and skills.",
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
   },
   {
