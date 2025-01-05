@@ -5,59 +5,70 @@ import project5 from "../assets/projects/snakeWaterGun.jpeg";
 import project6 from "../assets/projects/bubbleGame.jpg";
 
 export const HERO_CONTENT = 
-`Hello! I'm Jyotirmoy Sharma, an emerging DevOps Engineer with a solid understanding of DevOps models and architecture. My technical journey began in the realm of networking, where I mastered the intricacies of network infrastructures and protocols. This strong foundation has uniquely positioned me to excel in both web development and DevOps practices.
-PostgreSQL, and Linux administration, enabling me to create dynamic, user-centric web applications while ensuring efficient, scalable solutions. I am passionate about leveraging my diverse skill set to develop innovative solutions that enhance user experiences and drive project success.`;
+`Hello! I'm Jyotirmoy Sharma, an aspiring DevOps Engineer with a strong foundation in networking and a growing expertise in DevOps tools and practices. Leveraging my experience in network infrastructure, Linux administration, and web development, I focus on building scalable, efficient, and user-centric solutions. I am passionate about optimizing workflows, automating processes, and driving innovation to enhance system performance and user experiences.`;
 
-export const ABOUT_TEXT = `As an emerging DevOps Engineer, I specialize in integrating development and operations to deliver seamless web experiences. My focus on DevOps principles enables efficient collaboration and continuous improvement across all stages of the software development lifecycle. My expertise spans various domains:
-
-DevOps Practices:
-
-Deep understanding of DevOps models and architecture to streamline development and operations.
-Proven experience in designing and implementing CI/CD pipelines, automating deployment processes to enhance efficiency and reduce errors.
-Familiarity with tools such as Jenkins, SonarQube, and Trivy to ensure secure, high-quality code deployment.
-Cloud Computing:
-
-Proficient in AWS Cloud services, enabling scalable and resilient application deployments.
-Utilization of AWS tools for monitoring, security, and resource management to maintain optimal performance.
-Back-End Development:
-
-Proficient in server-side technologies such as Node.js and Express, ensuring robust application functionality.
-Skilled in database management with MySQL and PostgreSQL, focusing on efficient data handling and storage.
-Front-End Development:
-
-Mastery of HTML, CSS, and JavaScript.
-Focus on modern frameworks like React to create visually captivating and responsive user interfaces.
-Linux Administration:
-
-Competent in managing Linux environments, enhancing application performance and security through effective server management.
-A strong networking background informs my approach to project integration, optimizing performance, fortifying security measures, and scaling solutions effectively.
-Throughout my journey, I have led full-stack projects from conception and design to deployment and ongoing maintenance, prioritizing a holistic development approach that emphasizes user experience alongside technical excellence. My commitment to DevOps principles drives my passion for continuous learning and innovation in technology.`
+export const ABOUT_TEXT = `Proactive Network Engineer transitioning into
+DevOps, with hands-on experience in managing
+Linux-based networks and self-initiated DevOps
+projects. Skilled in CI/CD pipelines,
+containerization with Docker, and cloud platforms
+like AWS. Adept at automating workflows,
+improving deployment efficiency, and ensuring
+system reliability. Passionate about leveraging
+technical expertise to build scalable and
+automated systems.:
+DevOps Practices
+In-depth knowledge of DevOps models and architecture to streamline development and operations.
+Experienced in designing and implementing CI/CD pipelines using tools like Jenkins, SonarQube, and Trivy to ensure secure, high-quality code deployments.
+Skilled in automating deployment processes, enhancing efficiency, and reducing errors.
+Cloud Computing
+Proficient in AWS Cloud services for scalable, resilient application deployments.
+Experienced in leveraging AWS tools for monitoring, security, and resource management to maintain optimal performance.
+Back-End Development
+Proficient in Node.js and Express for building robust server-side applications.
+Skilled in database management with MySQL and PostgreSQL for efficient data handling and storage.
+Front-End Development
+Expertise in HTML, CSS, and JavaScript, with a focus on modern frameworks like React to develop responsive and engaging user interfaces.
+Linux Administration
+Experienced in managing Linux environments, optimizing server performance, and enhancing application security.
+Networking expertise informs efficient project integration, fortified security measures, and scalable solutions.`
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Network & DevOps Engineer",
+    year: "2024 - Present",
+    role: "Network Engineer",
+    company: "GA Digital Web word Pvt Ltd",
+    description: `Managing and monitoring Linux-based networks supporting 30+
+government offices under the National Informatics Centre, ensuring
+uninterrupted service and high availability.
+• Diagnosing and resolving complex network issues within NIC’s critical
+systems to maintain system reliability and minimize downtime.
+• Implementing and maintaining Linux-based network monitoring tools
+to provide real-time insights into network performance for NIC’s
+infrastructure.
+• Collaborating with vendors to deploy optimized network solutions,
+enhancing performance and uptime for government IT services.
+• Introducing DevOps practices by automating deployment workflows
+using Jenkins and Docker, streamlining processes and improving
+efficiency in NIC’s development and operations workflows.`
+    
+  },
+  {
+    year: "2023 - 2024",
+    role: "Network Engineer",
     company: "EbixCash Mobility Software India Ltd",
-    description: `Transitioned into DevOps engineering as per client requirements,
-learning and applying various DevOps tools and methodologies.
-Developed and maintained CI/CD pipelines using Jenkins, GitHub,
-SonarQube, and other DevSecOps methodologies to automate
-software delivery and enhance deployment efficiency.
-Integrated OWASP dependency checks, SonarQube quality gate scans,
-and Trivy filesystem scans to ensure secure and high-quality code
-deployment.
-Successfully automated deployment processes, improving delivery times
-and reducing manual errors.
-Utilized GitHub for version control, managing code repositories,
-performing branching and merging strategies, and collaborating on
-large-scale projects.
-Delivered end-to-end engineering and installation of route-based IP
-network solutions, ensuring optimal performance and reliability.
-Performed advanced troubleshooting on Juniper and Cisco systems,
-utilizing packet analysis tools to efficiently identify and resolve network
-issues.
-Monitored network capacity and performance, diagnosing and resolving
-bottlenecks to maintain seamless connectivity.`
+    description: `• Managing and monitoring Linux-based networks for 30+ government
+offices under NIC, ensuring high availability and performance.
+• Resolving network issues and maintaining critical infrastructure
+reliability with minimal downtime.
+• Implementing network monitoring tools for real-time insights into
+performance metrics.
+• Deploying and optimizing video conferencing systems for government
+offices, facilitating seamless communication.
+• Coordinating live programs like Chief Minister’s addresses or
+Governor’s visits, ensuring flawless telecasts and technical support.
+• Automating workflows with Jenkins and Docker, enhancing efficiency
+and streamlining operations.`
     
   },
   
@@ -65,20 +76,20 @@ bottlenecks to maintain seamless connectivity.`
     year: "2017-2023",
     role: "Network Engineer",
     company: "Wipro Limited",
-    description: `As a Network Engineer, I monitored network capacity and performance in
-a Linux environment, diagnosing and resolving complex issues across nearly
-30 government offices. In addition, I assisted in the implementation and
-support of Linux-based network monitoring tools, ensuring real-time
-tracking of network health and performance. Collaborating with external
-vendors, I helped evaluate and deploy optimal solutions for network
-performance improvements, leveraging Linux-based tools for monitoring
-and configuration.
-During this time, I also provided support in various DevOps tools, which
-sparked my interest in the field. I actively worked on developing my skills in
-areas like automation, containerization, and CI/CD pipelines. This
-hands-on experience encouraged me to transition my career into DevOps,
-where I now specialize in modern technologies such as Docker, Jenkins, and
-cloud platforms like AWS, alongside my strong networking foundation.`
+    description: `Managed and monitored Linux-based networks for 30 government
+offices, ensuring optimal performance, reliability, and uninterrupted
+service delivery.
+• Diagnosed and resolved complex network issues, maintaining critical
+infrastructure stability and uptime.Implemented real-time network
+monitoring tools, providing actionable insights to enhance system
+performance.
+• Gained hands-on experience with DevOps tools like Docker, Jenkins,
+and AWS, focusing on automation, containerization, and CI/CD
+pipelines.
+• Collaborated with vendors to deploy and optimize network solutions,
+improving overall efficiency.
+• Leveraged Linux and networking expertise to transition into DevOps,
+with a focus on building scalable and efficient systems.`
   },
   {
     year: "2015 - 2017",
@@ -110,7 +121,12 @@ export const PROJECTS = [
     description: "Developed a robust CI/CD pipeline ensuring secure application deployment using Jenkins, GitHub, SonarQube, and Trivy. Integrated SonarQube quality gates scans to maintain code quality and security standards throughout the deployment process, enhancing the overall security posture of the applications.",
     technologies: ["Jenkins", "GitHub", "SonarQube", "SonarQube quality Gate scan", "Trivy"],
   },
-
+  {
+    title: "Jenkins Automation on EC2",
+    image: project1,
+    description: "Set up a CI/CD pipeline with Jenkins on AWS EC2, automating NodeJS application deployments. Integrated Docker for containerization, improving deployment efficiency by 40%, and Configured Nginx for Load balancing and reverse proxy to optimize performance.",
+    technologies: ["Jenkins", "AWS EC2", "Docker", "Nginx"],
+  },
   {
     title: "E-Commerce Website",
     image: project1,

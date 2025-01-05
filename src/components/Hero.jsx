@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import profilePic from "../assets/frontPropic.png"
+import profilePic from "../assets/frontpic.png"
 import {motion} from 'framer-motion';
 
 const container = (delay) => ({
@@ -41,16 +41,19 @@ const Hero = () => {
                     {HERO_CONTENT}</motion.p>
         </div>
         </div>
-
-        <div className='w-full lg:w-1/2 lg:p-8'>
-            <div className='flex justify-center'>
-                <motion.img 
-                initial={{x:100, opacity:0 }}
-                animate={{x:0, opacity:1}}
-                transition={{duration: 1, delay: 1.2}}
-                src={profilePic} alt='profilePic' />
-            </div>
-        </div>
+        <div className="w-full px-4 lg:w-1/2 lg:p-8">
+  <div className="flex justify-center">
+    <motion.img
+      initial={{ x: 100, opacity: 0 }} // Animation starts off-screen with opacity 0
+      animate={{ x: 0, opacity: 1 }}  // Moves into view with full opacity
+      transition={{ duration: 1, delay: 1.2 }} // Animation timing and delay
+      src={profilePic} // Profile image source
+      alt="Profile Picture" // Accessible alt text
+      className="rounded-full shadow-lg w-40 h-50 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 object-cover border-4 border-neutral-800"
+      />
+  </div>
+</div>
+        
         </div>
 
     </div>
