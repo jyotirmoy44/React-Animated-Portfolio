@@ -1,10 +1,11 @@
+import React from "react";
 import logo from "../assets/jyotirmoySharmaLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
-import { motion } from "framer-motion";
+
 
 const Navbar = () => {
   return (

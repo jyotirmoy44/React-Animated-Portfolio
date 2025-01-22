@@ -5,70 +5,85 @@ import project5 from "../assets/projects/snakeWaterGun.jpeg";
 import project6 from "../assets/projects/bubbleGame.jpg";
 
 export const HERO_CONTENT = 
-`Hello! I'm Jyotirmoy Sharma, an aspiring DevOps Engineer with a strong foundation in networking and a growing expertise in DevOps tools and practices. Leveraging my experience in network infrastructure, Linux administration, and web development, I focus on building scalable, efficient, and user-centric solutions. I am passionate about optimizing workflows, automating processes, and driving innovation to enhance system performance and user experiences.`;
-
-export const ABOUT_TEXT = `Proactive Network Engineer transitioning into
-DevOps, with hands-on experience in managing
-Linux-based networks and self-initiated DevOps
-projects. Skilled in CI/CD pipelines,
-containerization with Docker, and cloud platforms
-like AWS. Adept at automating workflows,
-improving deployment efficiency, and ensuring
-system reliability. Passionate about leveraging
-technical expertise to build scalable and
-automated systems.:
-DevOps Practices
-In-depth knowledge of DevOps models and architecture to streamline development and operations.
-Experienced in designing and implementing CI/CD pipelines using tools like Jenkins, SonarQube, and Trivy to ensure secure, high-quality code deployments.
-Skilled in automating deployment processes, enhancing efficiency, and reducing errors.
-Cloud Computing
-Proficient in AWS Cloud services for scalable, resilient application deployments.
-Experienced in leveraging AWS tools for monitoring, security, and resource management to maintain optimal performance.
-Back-End Development
-Proficient in Node.js and Express for building robust server-side applications.
-Skilled in database management with MySQL and PostgreSQL for efficient data handling and storage.
-Front-End Development
-Expertise in HTML, CSS, and JavaScript, with a focus on modern frameworks like React to develop responsive and engaging user interfaces.
-Linux Administration
-Experienced in managing Linux environments, optimizing server performance, and enhancing application security.
-Networking expertise informs efficient project integration, fortified security measures, and scalable solutions.`
+``
+export const ABOUT_TEXT = `Hi!, I'm a Software Engineer transitioning into DevOps, I have
+hands-on experience managing Linux-based networks,
+optimizing system performance, and ensuring high
+availability. I have developed and automated CI/CD
+pipelines using Jenkins and GitLab CI, reducing
+deployment time by 40%. Skilled in containerizing
+applications with Docker and deploying them on AWS, I
+have enhanced scalability and resource efficiency. My
+expertise also includes automating workflows with shell
+scripts and Ansible, minimizing manual effort and errors.
+Additionally, I have implemented monitoring solutions like
+Prometheus and Grafana, ensuring 99.9% system uptime.
+Passionate about leveraging my technical skills to build
+scalable, automated systems that improve deployment
+efficiency and system reliability.`
 
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Network Engineer",
+    role: "Software Engineer",
     company: "GA Digital Web word Pvt Ltd",
-    description: `Managing and monitoring Linux-based networks supporting 30+
-government offices under the National Informatics Centre, ensuring
-uninterrupted service and high availability.
-• Diagnosing and resolving complex network issues within NIC’s critical
-systems to maintain system reliability and minimize downtime.
-• Implementing and maintaining Linux-based network monitoring tools
-to provide real-time insights into network performance for NIC’s
-infrastructure.
-• Collaborating with vendors to deploy optimized network solutions,
-enhancing performance and uptime for government IT services.
-• Introducing DevOps practices by automating deployment workflows
-using Jenkins and Docker, streamlining processes and improving
-efficiency in NIC’s development and operations workflows.`
+    description: `Developed and maintained scalable web applications using the Laravel framework
+and PHP.Designed, optimized, and managed relational databases like MySQL and
+PostgreSQL, including writing queries, stored procedures, and migrations.
+• Created RESTful APIs for seamless integration with third-party services and internal
+systems.
+• Conducted unit testing, debugging, and performance optimization to ensure high-
+quality applications.
+• Implemented security measures to protect applications against vulnerabilities like
+SQL injection, XSS, and CSRF.Collaborated with cross-functional teams, including
+front-end developers, designers, and product managers, to deliver user-focused
+solutions.
+• Utilized version control tools (e.g., Git) for code management and collaborative
+development.
+• Enhanced application performance through caching, indexing, and optimization
+techniques.
+• Automated deployment workflows using CI/CD pipelines for faster and more reliable
+releases.Provided ongoing maintenance, support, and monitoring for production
+systems to ensure reliability and availability`
     
   },
   {
     year: "2023 - 2024",
-    role: "Network Engineer",
+    role: "Software Developer",
     company: "EbixCash Mobility Software India Ltd",
-    description: `• Managing and monitoring Linux-based networks for 30+ government
-offices under NIC, ensuring high availability and performance.
-• Resolving network issues and maintaining critical infrastructure
-reliability with minimal downtime.
-• Implementing network monitoring tools for real-time insights into
-performance metrics.
-• Deploying and optimizing video conferencing systems for government
-offices, facilitating seamless communication.
-• Coordinating live programs like Chief Minister’s addresses or
-Governor’s visits, ensuring flawless telecasts and technical support.
-• Automating workflows with Jenkins and Docker, enhancing efficiency
-and streamlining operations.`
+    description: `•Designed, developed, and maintained scalable web and enterprise applications
+using Java frameworks like Spring Boot and Hibernate.
+• Implemented RESTful APIs and microservices architecture for efficient
+communication between services.
+• Worked with relational databases (MySQL, PostgreSQL) and NoSQL databases
+(MongoDB), performing schema design, queries, and optimization.Conducted unit
+testing with JUnit and integration tAs a Software Engineer transitioning into DevOps, I have
+hands-on experience managing Linux-based networks,
+optimizing system performance, and ensuring high
+availability. I have developed and automated CI/CD
+pipelines using Jenkins and GitLab CI, reducing
+deployment time by 40%. Skilled in containerizing
+applications with Docker and deploying them on AWS, I
+have enhanced scalability and resource efficiency. My
+expertise also includes automating workflows with shell
+scripts and Ansible, minimizing manual effort and errors.
+Additionally, I have implemented monitoring solutions like
+Prometheus and Grafana, ensuring 99.9% system uptime.
+Passionate about leveraging my technical skills to build
+scalable, automated systems that improve deployment
+efficiency and system reliabilityesting to ensure code quality and reliability.
+• Automated build processes and dependency management using tools like Maven
+and Gradle.
+• Integrated DevOps practices, including setting up CI/CD pipelines using Jenkins,
+GitLab CI/CD, or GitHub Actions for automated testing and deployment.
+• Deployed Java applications on cloud platforms like AWS and managed environments
+using Docker containers and Kubernetes orchestration.
+• Utilized logging and monitoring tools (e.g., ELK Stack, Prometheus, Grafana) to
+ensure application performance and resolve production issues.
+• Ensured security and compliance by implementing secure coding practices and
+automated vulnerability scans.
+• Collaborated with cross-functional teams to implement agile methodologies,
+participate in sprint planning, and deliver projects on time.`
     
   },
   
@@ -120,6 +135,12 @@ export const PROJECTS = [
     image: project1,
     description: "Developed a robust CI/CD pipeline ensuring secure application deployment using Jenkins, GitHub, SonarQube, and Trivy. Integrated SonarQube quality gates scans to maintain code quality and security standards throughout the deployment process, enhancing the overall security posture of the applications.",
     technologies: ["Jenkins", "GitHub", "SonarQube", "SonarQube quality Gate scan", "Trivy"],
+  },
+  {
+    title: "Online Marketplace",
+    image: project1,
+    description: "Created aplatform enabling buyers and sellers to connect through product listings and detailed profiles. Integrated an escrow payment system to ensure secure transactions between users.",
+    technologies: ["Laravel", "MySQL", "Bootstrap", "Stripe/Paypal"],
   },
   {
     title: "Jenkins Automation on EC2",
